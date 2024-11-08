@@ -3,3 +3,7 @@
 
 -- Set root directory to be the same as cwd
 vim.g.root_spec = { "cwd" }
+
+-- Add Bulgarian spellcheck
+vim.opt.spelllang = "en,bg"
+vim.opt.spell = true
