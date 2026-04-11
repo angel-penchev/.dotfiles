@@ -1,9 +1,3 @@
 -- Options are automatically loaded before lazy.nvim startup
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
-
--- Set root directory to be the same as cwd
-vim.g.root_spec = { "cwd" }
-
--- Add Bulgarian spellcheck
-vim.opt.spelllang = "en,bg"
-vim.opt.spell = true
+-- Add any additional options here
